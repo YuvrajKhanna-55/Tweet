@@ -1,14 +1,11 @@
 # Tweet
 
 Tweet is a learning project built to understand Django by implementing an
-X (formerly Twitter)-style social platform. It combines a Django REST API with
+X-style social platform. It combines a Django REST API with 
 a React/Vite client and demonstrates how Django components work together in a
 real application.
 
-This is not affiliated with or endorsed by X Corp. It is an educational
-implementation project.
-
-## What this project demonstrates
+## Project demonstrates:
 
 ### Django fundamentals
 

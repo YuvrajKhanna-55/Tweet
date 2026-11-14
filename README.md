@@ -5,6 +5,10 @@ X-style social platform. It combines a Django REST API with
 a React/Vite client and demonstrates how Django components work together in a
 real application.
 
+## Preview
+
+![Tweet App Interface](assets/screenshot.png)
+
 ## Project demonstrates:
 
 ### Django fundamentals

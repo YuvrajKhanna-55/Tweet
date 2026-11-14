@@ -171,6 +171,3 @@ The repository intentionally excludes:
 - Frontend production output
 - IDE and operating-system files
 
-Only `.env.example` should be committed as configuration documentation.
-Replace all development secrets and configure production values through the
-deployment environment.

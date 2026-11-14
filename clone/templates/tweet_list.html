@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}App{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center text-white mb-4">Home | Tweet</h1>
+
+    <a href="{% url 'create_tweet' %}" class="btn btn-primary mb-4">Create New Tweet</a>
+
+    <div class="row gap-3">
+       {% for tweet in tweets %}
+         <section class="card bg-dark text-white border-secondary" style="max-width: 320px;">
+            {% if tweet.photo %}
+              <img src="{{ tweet.photo.url }}" class="card-img-top" alt="Tweet Image">
+            {% endif %}
+            <div class="card-body">
+               <h4 class="card-title">{{ tweet.user.username }}</h4>
+                <p class="card-text">{{ tweet.text }} </p>
+                {% if tweet.user == user%}
+                <a href="{% url 'edit_tweet' tweet.id %}" class="btn btn-primary btn-sm">Edit</a>
+                <a href="{% url 'delete_tweet' tweet.id %}" class="btn btn-danger btn-sm">Delete</a>
+                {% endif %}
+            </div>
+           </section>
+       {% endfor %}
+    </div>
+</div>
+{% endblock %}

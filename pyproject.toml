@@ -1,0 +1,24 @@
+[project]
+name = "tweet-django-learning-project"
+version = "0.1.0"
+description = "A Django and React learning project that implements an X (Twitter)-style social platform."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Tweet contributors" },
+]
+dependencies = [
+    "Django==5.2.19",
+    "djangorestframework==3.16.1",
+    "django-cors-headers==4.9.0",
+    "psycopg[binary]==3.2.10",
+    "Pillow==12.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []

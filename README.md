@@ -7,7 +7,7 @@ real application.
 
 ## Preview
 
-![Tweet App Interface](assests/screenshot.png)
+![Tweet App Interface](assets/Screenshot 2026-11-15 002724.png)
 
 ## Project demonstrates:
 

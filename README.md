@@ -6,7 +6,8 @@ a React/Vite client and demonstrates how Django components work together in a
 real application.
 
 ## Preview
-![Tweet App Interface](assets/Screenshot 2026-11-15 002724.png)
+
+![Tweet App Interface](assets/Screenshot%202026-11-15%20002724.png)
 
 ## Project demonstrates:
 
